@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AdvanceFeature = (props) => {
+const AdFeatureCard = (props) => {
   return (
     <div>
     <img src={props.image} alt='Feature'></img>
@@ -15,4 +15,4 @@ const AdvanceFeature = (props) => {
   )
 }
 
-export default AdvanceFeature
+export default AdFeatureCard

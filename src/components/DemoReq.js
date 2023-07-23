@@ -5,11 +5,12 @@ const DemoReq = () => {
   return (
     <div class="flex w-full h-3/6 bg-slate-100  mt-20">
       <div class=" text-white mx-auto mt-20 w-2/4 h-1/3">
-        <p class="flex text-center font-bold text-black text-5xl mx-1/4 relative">
-          Say goodbye to long queues, big updates, and confusion.
-        </p>
 
-        <br></br>
+        <h1 className="py-4 text-center font-[PlayfairDisplay] text-[48px] font-bold leading-tight text-black">
+          Say goodbye to long queues, big <br />
+          updates, and <span className="text-[#10B981]">confusion</span>.
+        </h1>
+
         <p class="text-slate-400 flex text-center">
           Excisd sknsljkm vsd;mvsdk vsdklj vsdm vlksd vmsdnvklsdv sjvsjdv
           sjldavsmdvlsjv ajkdac akcjbas casjkcnasj casjkcnasjnckja screen ajkc
