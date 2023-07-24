@@ -36,7 +36,7 @@ let featuresArray = [
 
 const FeatureSection = () => {
   return (
-    <div className="grid grid-cols-1 mx-60 mt-10 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 justify-center pt-10 gap-8 md:grid-cols-2 lg:grid-cols-3 lg:mx-60">
       {featuresArray.map((feature) => (
         <FeatureCard
           iconName={feature.iconName}

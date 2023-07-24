@@ -32,6 +32,12 @@ code {
   }
 }
 
+.tiltedBk {
+  
+  height: 83vh;
+  background: linear-gradient(177deg, #121d2d 62%, #FFFFFF 50%);
+}
+
 .mainAppBg {
   background-color: #121d2d;
 }

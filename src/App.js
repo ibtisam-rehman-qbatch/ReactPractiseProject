@@ -6,10 +6,8 @@ import DemoReq from "./components/DemoReq";
 import AdvanceFeatureSection from "./components/AdvanceFeatureSection";
 import Header from "./components/Header";
 
-
 import NavBar from "./components/NavBar";
 import FeatureSection from "./components/FeatureSection";
-
 
 function App() {
   return (
@@ -31,6 +29,8 @@ function App() {
 
         <Fotter></Fotter>
 
+
+        
       </div>
     </div>
   );

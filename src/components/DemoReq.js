@@ -3,10 +3,10 @@ import "boxicons";
 
 const DemoReq = () => {
   return (
-    <div class="flex w-full h-3/6 bg-slate-100  mt-20">
+    <div class="flex w-full h-3/6 bg-slate-100  ">
       <div class=" text-white mx-auto mt-20 w-2/4 h-1/3">
 
-        <h1 className="py-4 text-center font-[PlayfairDisplay] text-[48px] font-bold leading-tight text-black">
+        <h1 className="pb-2 text-center font-[PlayfairDisplay] text-[48px] font-bold leading-tight text-black">
           Say goodbye to long queues, big <br />
           updates, and <span className="text-[#10B981]">confusion</span>.
         </h1>

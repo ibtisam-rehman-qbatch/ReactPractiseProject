@@ -1,6 +1,6 @@
 import React from "react";
 import AdFeatureCard from "../cards/AdFeatureCard";
-import img2 from "../Assets/img21.png";
+import img2 from "../Assets/img-2.jpg";
 
 let AdvFeaturesArray = [
   {
@@ -23,15 +23,15 @@ let AdvFeaturesArray = [
 const AdvanceFeatureSection = (props) => {
   return (
     <>
-      <div class="flex w-full h-3/6 mainAppBg  mt-20">
-        <div class=" text-white mx-auto w-2/4 h-1/3">
+    {/* w-full h-3/6 */}
+      <div class="tiltedBk mainAppBg  mt-20">
+        <div class=" text-white mx-auto w-2/4 h-1/3 ">
           <p class="max-w-2xl pb-12 pt-16 text-center font-[PlayfairDisplay] text-[48px] font-bold leading-tight text-white">
             Simplify Operating and manage with transparency
           </p>
         </div>
-      </div>
 
-      <div class="grid grid-cols-3 gap-4 -mt-40  mx-60 ">
+        <div class="grid grid-cols-3 gap-4  mx-60 ">
         {AdvFeaturesArray.map((feature) => (
           <AdFeatureCard
             image={feature.image}
@@ -40,6 +40,9 @@ const AdvanceFeatureSection = (props) => {
           ></AdFeatureCard>
         ))}
       </div>
+      </div>
+
+      
     </>
   );
 };
