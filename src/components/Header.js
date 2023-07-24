@@ -3,9 +3,9 @@ import img1 from "../Assets/img-1.jpg";
 
 const Header = () => {
   return (
-    <div class="flex flex-col flex-none text-white items-center px-60 space-x-16 pt-10 justify-between lg:flex-row lg:justify-around">
-      <div class="pt-10">
-        <p class="font-[PlayfairDisplay] text-[48px] font-bold leading-tight md:text-[64px]">
+    <div className="flex flex-col flex-none text-white items-center px-60 space-x-16 pt-10 justify-between lg:flex-row lg:justify-around">
+      <div className="pt-10">
+        <p className="font-[PlayfairDisplay] text-[48px] font-bold leading-tight md:text-[64px]">
           Create Stunning Web experiences
         </p>
         <br></br>
@@ -15,7 +15,7 @@ const Header = () => {
         </p>
         <br></br>
 
-        <div class="flex flex-col items-center space-x-0  md:flex-row md:space-x-4 md:space-y-0">
+        <div className="flex flex-col items-center space-x-0  md:flex-row md:space-x-4 md:space-y-0">
           <div>
             <button className="flex items-center bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4">
               Request Demo
@@ -34,9 +34,21 @@ const Header = () => {
         </div>
       </div>
 
+
+      {/* <div className="relative">
+              <div
+              className="transform top-3 left-3 w-full h-full"
+                style={{
+                  position: "absolute",
+                  border: "2px solid #29394B",
+                }}
+              > </div>
+                <img src={img1} className="absolute h-full w-full" alt="img"></img>
+            </div> */}
+
       <div>
         <img src={img1} alt="img"></img>
-      </div>
+       </div>
     </div>
   );
 };

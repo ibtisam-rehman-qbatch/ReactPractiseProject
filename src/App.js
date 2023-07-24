@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import "boxicons";
 // import logo from "./Assets/web_logo3.png";
@@ -12,9 +13,9 @@ import FeatureSection from "./components/FeatureSection";
 function App() {
   return (
     <div>
-      <div class="w-screen h-screen">
-        <div class="w-full h-5/6  mainAppBg  -skew-y-3 relative -top-10 ">
-          <div class="skew-y-3 absolute top-10 w-full items-center">
+      <div className="w-screen h-screen">
+        <div className="w-full h-5/6  mainAppBg  -skew-y-3 relative -top-10 ">
+          <div className="skew-y-3 absolute top-10 w-full items-center">
             <NavBar></NavBar>
 
             <Header></Header>
