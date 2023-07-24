@@ -1,18 +1,21 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const AdFeatureCard = (props) => {
+const AdFeatureCard = ({ image, title, desc }) => {
   return (
     <div>
-    <img src={props.image} alt='Feature'></img>
+      <img src={image} alt='Feature'></img>
+      <br></br>
+      <p className="font-bold">{title}</p>
+      <p>{desc}</p>
+    </div>
+  );
+};
 
-    <br></br>
+AdFeatureCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+};
 
-    <p class="font-bold">{props.title}</p>
-    <p>
-     {props.desc}
-    </p>
-  </div>
-  )
-}
-
-export default AdFeatureCard
+export default AdFeatureCard;
